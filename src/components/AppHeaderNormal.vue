@@ -4,7 +4,6 @@
       <app-header-normal-menu-dropdown :name="item.name" :children="item.children" v-if="item.type === 'dropdown'" />
       <app-header-normal-menu-item :name="item.name" @click="handleItemClick(item)" v-else />
     </div>
-    <app-header-normal-menu-sara v-if="isSaraEnabled" />
   </nav>
 </template>
 
@@ -13,9 +12,8 @@ import { inject } from "vue";
 
 import AppHeaderNormalMenuItem from "./AppHeaderNormalMenuItem.vue"
 import AppHeaderNormalMenuDropdown from "./AppHeaderNormalMenuDropdown.vue"
-import AppHeaderNormalMenuSara from "./AppHeaderNormalMenuSara.vue"
 
-import { isSaraEnabled, menuItems } from "./AppHeaderMenuData.js";
+import { menuItems } from "./AppHeaderMenuData.js";
 
 const parentMenuState = inject('parent-menu-state');
 
