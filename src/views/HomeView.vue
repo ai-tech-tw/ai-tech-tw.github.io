@@ -59,7 +59,7 @@
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-900">推廣人工智慧</p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-gray-500">
-                本組織致力於推廣 JavaScript 程式語言，提升該語言的普及率，並同時以該語言開發各種專案。
+                本組織致力於推廣人工智慧技術，提供各種學習資源，讓大眾可以透過網路，了解人工智慧技術。
               </dd>
             </div>
             <div class="relative">
