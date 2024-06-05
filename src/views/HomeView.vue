@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="flex bg-white px-32 mx-auto" style="height:750px;">
-      <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
-        <div>
+    <div class="flex bg-white px-3 2xl:px-32 mx-auto wrapper-height">
+      <div class="flex items-center text-center lg:text-left md:px-12 w-full lg:w-1/2">
+        <div class="w-full">
           <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">
             屬於你的
             <span class="text-sky-500">AI</span>
@@ -11,17 +11,22 @@
           <p class="mt-2 text-sm text-gray-500 md:text-base">
             攜手探索 AI 的無限可能，透過創新與合作，打造一個智慧化、人機共榮的未來。
           </p>
+          <div class="w-52 mx-auto my-16 lg:hidden">
+            <img alt="AI" :src="imageIcon" />
+          </div>
           <div class="flex justify-center lg:justify-start mt-6">
-            <div class="rounded-md shadow">
-            <a href="https://web-tech-tw.github.io/openchat/#/join/ai-tw" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700 md:py-4 md:text-lg md:px-10">
-              LINE OpenChat
-            </a>
-          </div>
-          <div class="mt-3 sm:mt-0 sm:ml-3">
-            <a href="https://github.com/ai-tech-tw" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-sky-700 bg-sky-100 hover:bg-sky-200 md:py-4 md:text-lg md:px-10">
-              GitHub
-            </a>
-          </div>
+            <div class="mt-3 sm:mt-0">
+              <a href="https://web-tech-tw.github.io/openchat/#/join/ai-tw"
+                class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-sky-100 bg-sky-600 hover:bg-sky-700 md:py-4 md:text-lg md:px-10">
+                OpenChat
+              </a>
+            </div>
+            <div class="mt-3 ml-3 sm:mt-0">
+              <a href="https://github.com/ai-tech-tw"
+                class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-sky-700 bg-sky-100 hover:bg-sky-200 md:py-4 md:text-lg md:px-10">
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -176,14 +181,14 @@
 
 <script setup>
 import imageIcon from '../assets/images/icon.png';
-
-const goUrl = (url) => {
-  window.open(url);
-}
 </script>
 
 <style scoped>
 .wrapper-background {
   background-image: url('../assets/images/icon.png');
+}
+
+.wrapper-height {
+  height:750px;
 }
 </style>
