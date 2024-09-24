@@ -10,6 +10,12 @@
             <h1 class="flex-auto text-lg font-semibold text-gray-900 sm:hidden">
               {{ titleShort }}
             </h1>
+            <p class="flex-auto text-md font-normal text-gray-500 hidden sm:block">
+              {{ subtitleLong }}
+            </p>
+            <p class="flex-auto text-sm font-normal text-gray-500 sm:hidden">
+              {{ subtitleShort }}
+            </p>
           </router-link>
         </div>
         <app-header-normal />
@@ -27,7 +33,12 @@ import { ref, onMounted, onUnmounted, provide } from "vue";
 
 import { Bars4Icon } from "@heroicons/vue/24/solid"
 
-import { titleLong, titleShort } from "./AppHeaderMenuData.js";
+import {
+  titleLong,
+  titleShort,
+  subtitleLong,
+  subtitleShort,
+} from "./AppHeaderMenuData.js";
 
 import AppHeaderNormal from "./AppHeaderNormal.vue";
 import AppHeaderMobile from "./AppHeaderMobile.vue";
