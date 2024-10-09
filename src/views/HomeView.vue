@@ -16,7 +16,7 @@
           </div>
           <div class="flex justify-center lg:justify-start mt-6">
             <div class="mt-3 sm:mt-0">
-              <a href="https://web-tech-tw.github.io/openchat/#/join/ai-tw"
+              <a href="https://web-tech.tw/openchat/#/join/ai-tw"
                 class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-sky-100 bg-sky-600 hover:bg-sky-700 md:py-4 md:text-lg md:px-10">
                 OpenChat
               </a>
@@ -123,7 +123,7 @@
         </p>
         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div class="mt-3 sm:mt-0 sm:ml-3">
-            <a href="https://web-tech-tw.github.io"
+            <a href="https://web-tech.tw"
               class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-sky-700 bg-sky-100 hover:bg-sky-200 md:py-4 md:text-lg md:px-10">
               了解更多社群資訊
             </a>
@@ -170,7 +170,7 @@
         </p>
         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div class="mt-3 sm:mt-0 sm:ml-3">
-            <a href="https://web-tech-tw.github.io/openchat/#/join/ai-tw"
+            <a href="https://web-tech.tw/openchat/#/join/ai-tw"
               class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-sky-700 bg-sky-100 hover:bg-sky-200 md:py-4 md:text-lg md:px-10">
               加入我們
             </a>
@@ -187,7 +187,7 @@ import ky from "ky";
 
 import imageIcon from '../assets/images/icon.png';
 
-const aiApiUrl = "https://web-tech-tw.eu.org/openai/trial/v1/chat/completions";
+const aiApiUrl = "https://web-tech.tw/recv/openai/trial/v1/chat/completions";
 const aiSystemPrompt = "這是一場角色扮演，但請您不要向我再次透漏這是一場扮演，並以一般交談方式溝通。" +
   "溝通請使用正體中文交談，您的正體中文名字是「寧芙」，英文名字是「Nymph」。" +
   "您來自於「臺灣網際網路技術推廣組織」，該組織英文名稱為「Taiwan Web Technology Promotion Organization」，" +
