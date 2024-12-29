@@ -225,7 +225,7 @@ function typing(refT, text) {
 onMounted(() => {
   ky.post(aiApiUrl, {
     json: {
-      "model": "gpt-4-turbo",
+      "model": "gemini-1.5-flash",
       "temperature": 0.7,
       "messages": aiMessages,
     }
