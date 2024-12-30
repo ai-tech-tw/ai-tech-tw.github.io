@@ -225,10 +225,10 @@ function typing(refT, text) {
 onMounted(() => {
   ky.post(aiApiUrl, {
     headers: {
-      "authorization": `Bearer zr3Pjc68z4bOtw==`,
+      "authorization": `Bearer groq zr3Pjc68z4bOtw==`,
     },
     json: {
-      "model": "gemini-1.5-flash",
+      "model": "llama-3.1-8b-instant",
       "temperature": 0.7,
       "messages": aiMessages,
     }
